@@ -1,11 +1,16 @@
 import fs from "fs";
 import path from "path";
-import { podcast } from "../models/podcastModel";
+import { podcastModel } from "../models/podcastModel";
+import { json } from "stream/consumers";
 
 const pathData = path.join(__dirname, "../repositories/podcasts.json");
 
-export const repositoryPodcast = async (): Promise<podcast[]> => {
-    const rawdata = fs.readFileSync(pathData, "utf-8")
-    const jsonFile = JSON.parse(rawdata);
+export const repositoryPodcast = async (podcastName?:string): Promise<podcastModel[]> => {
+    const rawData = fs.readFileSync(pathData, "utf-8")
+    let jsonFile = JSON.parse(rawData);
+
+    if(podcastName){
+        jsonFile = jsonFile.filter((podcast: podcastModel) => podcast.podcastName === podcastName )
+    }
     return jsonFile;
 };
