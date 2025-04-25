@@ -1,4 +1,4 @@
-🎙️ Gerenciador de Podcasts
+## 🎙️  Gerenciador de Podcasts
 
 # Aplicação desenvolvida para o gerenciamento de episódios de podcasts, focando em praticidade para adicionar, listar e gerenciar conteúdos de áudio de forma simples e eficiente.
 
@@ -46,8 +46,8 @@ Para rodar o projeto localmente, siga os passos abaixo:
 * npm run start:dev
 
 📝 Licença
-## Este projeto está sob a licença MIT.
-## Sinta-se à vontade para usar, modificar e compartilhar!
+# Este projeto está sob a licença MIT.
+# Sinta-se à vontade para usar, modificar e compartilhar!
 
 🚀 Rodapé
 * Desenvolvido com dedicação por Mauro César.
