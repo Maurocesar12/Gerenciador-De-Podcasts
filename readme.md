@@ -35,7 +35,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
 
-* git clone [https:](https://github.com/Maurocesar12/Gerenciador-De-Podcasts.git)
+* git clone [Gerenciador-De-Podcasts](https://github.com/Maurocesar12/Gerenciador-De-Podcasts.git)
 
 2. Instale as dependencias
 
