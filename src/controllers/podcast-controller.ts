@@ -5,7 +5,6 @@ import {serviceFilterEpisodes} from "../services/filter-episodes-services";
 import { statusCode } from "../utils/status-code";
 import { contentType } from "../utils/content-type";
 import { filterPodcastModel } from "../models/filter-podcast-model";
-import { podcastModel } from "../models/podcastModel";
 
 export const getListEpisodes = async (
     req : IncomingMessage,
