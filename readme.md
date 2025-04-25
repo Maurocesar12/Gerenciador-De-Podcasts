@@ -1,6 +1,6 @@
 ## 🎙️  Gerenciador de Podcasts
 
-# Aplicação desenvolvida para o gerenciamento de episódios de podcasts, focando em praticidade para adicionar, listar e gerenciar conteúdos de áudio de forma simples e eficiente.
+ Aplicação desenvolvida para o gerenciamento de episódios de podcasts, focando em praticidade para adicionar, listar e gerenciar conteúdos de áudio de forma simples e eficiente.
 
 # 🚀 Tecnologias Utilizadas
 * Node.js
